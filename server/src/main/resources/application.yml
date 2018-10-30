@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: backend-server
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/admin?characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: blockshine@123
+
+  jpa:
+    show-sql: true
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
